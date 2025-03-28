@@ -1,38 +1,53 @@
 #include <stdio.h>
 
-int main() {
+    int main() {
+ 
+    // Parte 1: Definindo variaveis para os atributos.
+    // Carta Um - Cidade Taubaté
+    
+    char estado[20] = "SaoPaulo";
+    char codigo[20] = "A01";
+    char nome[20] = "Taubate";
+    int populacao = 321299;
+    float area = 625.004;
+    float pib = 50563.09;
+    int pontosturisticos = 5;
 
-// Criação carta 1
-// Definindo variaveis para as cartas um e dois
+    // Parte 2: imprimindo os valores na tela.
+    
+    printf("Estado: %s\n", estado);
+    printf("Codigo da Carta: %s\n", codigo);
+    printf("Nome da Cidade: %s\n", nome);
+    printf("Populacao: %i\n", populacao);
+    printf("area em km²: %f\n", area);
+    printf("PIB: %f\n", pib);
+    printf("Numero de Pontos Turisticos: %i\n", pontosturisticos);
 
-char codigo[20] = "A01";
-char nome_da_cidade[20] = "Taubate";
-int populacao = 321.299;
-float Area = 625.004;
-float PIB = 50563.09;
-int pontoturistico = 6;
+    printf ("\n");
+    // parte 3 : Definindo variaveis para os atributos Carta Dois.
+    // Carta Dois - Cidade Ubatuba
 
-// Inicializando variaveis
+    char estado2[20] = "SaoPaulo";
+    char codigo2[20] = "A02";
+    char nome2[20] = "Ubatuba";
+    int populacao2 = 92819;
+    float area2 = 708,105;
+    float pib2 = 10404.04;
+    int pontosturisticos2 = 15;
+    
+    // Parte 4: Imprimindo os valores da Carta Dois
 
-printf ("Codigo do Estado é: \n");
-printf ("Nome da Cidade é: \n");
-printf ("A Populacao é: \n");
-printf ("A Area é: \n");
-printf ("O PIB é:  \n");
-printf ("Numero de Pontos Turisticos é: \n");
+    printf("Estado: %s\n", estado2);
+    printf("Codigo da Carta: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", nome2);
+    printf("Populacao: %i\n", populacao2);
+    printf("area em km²: %f\n", area2);
+    printf("PIB: %f\n", pib);
+    printf("Numero de Pontos Turisticos: %i\n", pontosturisticos2);
 
-// Exibindo os valores
+    // Separando para organizar.
+    
+    printf ("\n");
+    return 0;
 
-scanf ("%s" , codigo);
-scanf ("%s" , nome_da_cidade);
-scanf ("%i" , populacao);
-scanf ("%f" , Area);
-scanf ("%f" , PIB);
-scanf ("%i" , pontoturistico);
-
-// leitura dos valores carta Um
-
-
-return 0;
-
-}
+    }
