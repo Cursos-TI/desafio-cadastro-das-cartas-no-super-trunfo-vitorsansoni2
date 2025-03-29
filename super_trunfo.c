@@ -31,7 +31,7 @@
     char codigo2[20] = "A02";
     char nome2[20] = "Ubatuba";
     int populacao2 = 92819;
-    float area2 = 708,105;
+    float area2 = 708.105;
     float pib2 = 10404.04;
     int pontosturisticos2 = 15;
     
