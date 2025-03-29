@@ -24,6 +24,7 @@
     printf("Numero de Pontos Turisticos: %i\n", pontosturisticos);
 
     printf ("\n");
+
     // parte 3 : Definindo variaveis para os atributos Carta Dois.
     // Carta Dois - Cidade Ubatuba
 
@@ -45,7 +46,7 @@
     printf("PIB: %f\n", pib);
     printf("Numero de Pontos Turisticos: %i\n", pontosturisticos2);
 
-    // Separando para organizar.
+    // Separando para deixar organizado.
     
     printf ("\n");
     return 0;
