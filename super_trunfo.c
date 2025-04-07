@@ -12,7 +12,7 @@
     float area = 625.004;
     float pib = 14988466;
     int pontosturisticos = 5;
-    int Densidade-populacional;
+    int Densidade_populacional;
     int PIB_per_capita;
 
     // Usando Operadores Matemáticos
