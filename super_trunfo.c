@@ -10,7 +10,7 @@
     char nome[20] = "Taubate";
     int populacao = 321299;
     float area = 625.004;
-    float pib = 50563.09;
+    float pib = 14988466;
     int pontosturisticos = 5;
 
     // Parte 2: imprimindo os valores na tela.
@@ -33,7 +33,7 @@
     char nome2[20] = "Ubatuba";
     int populacao2 = 92819;
     float area2 = 708.105;
-    float pib2 = 10404.04;
+    float pib2 = 723522.919;
     int pontosturisticos2 = 15;
     
     // Parte 4: Imprimindo os valores da Carta Dois
