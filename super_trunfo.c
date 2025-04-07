@@ -12,12 +12,19 @@
     float area = 625.004;
     float pib = 14988466;
     int pontosturisticos = 5;
-    int Densidade_populacional;
-    int PIB_per_capita;
+    float Densidade_populacional;
+    float PIB_per_capita;
 
-    // Usando Operadores Matemáticos
-    int Densidade_populacional = populacao / area; 
-    int Pib_per_capita = pib / populacao;
+    // Atribuindo operadores matematicos
+
+    /*
+    Atribuição simples (=)
+    Atribuição soma (+=)
+    atribuição subtração (-=)
+    atribuição multiplicação (*=)
+    atribuição divisão (/=)
+    */
+
     
     // Parte 2: imprimindo os valores na tela.
     
@@ -28,6 +35,9 @@
     printf("area em km²: %f\n", area);
     printf("PIB: %.2f\n", pib);
     printf("Numero de Pontos Turisticos: %i\n", pontosturisticos);
+    printf("Densidade Populacional %.2f", populacao / area);
+    printf("PIB per capita: %.2f", pib / populacao);
+
 
     printf ("\n");
 
@@ -41,12 +51,9 @@
     float area2 = 708.105;
     float pib2 = 723522.919;
     int pontosturisticos2 = 15;
-    int Densidade_populacional2;
-    int PIB_per_capita2;
+    float Densidade_populacional2;
+    float PIB_per_capita2;
 
-    // Usando Operadores Matemáticos
-    int Densidade_populacional2 = populacao2 / area2; 
-    int Pib_per_capita2 = pib2 / populacao2;
     
     // Parte 4: Imprimindo os valores da Carta Dois
 
@@ -57,10 +64,14 @@
     printf("area em km²: %f\n", area2);
     printf("PIB: %.2f\n", pib);
     printf("Numero de Pontos Turisticos: %i\n", pontosturisticos2);
+    printf("Densidade Populacional %.2f", populacao2 / area2);
+    printf("PIB per capita: %.2f", pib2 / populacao2);
 
     // Separando para deixar organizado.
     
     printf ("\n");
+    
     return 0;
+
 
     }
