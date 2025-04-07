@@ -12,6 +12,8 @@
     float area = 625.004;
     float pib = 14988466;
     int pontosturisticos = 5;
+    int Densidade-populacional;
+    int PIB_per_capita;
 
     // Usando Operadores Matemáticos
     int Densidade_populacional = populacao / area; 
@@ -39,10 +41,12 @@
     float area2 = 708.105;
     float pib2 = 723522.919;
     int pontosturisticos2 = 15;
+    int Densidade_populacional2;
+    int PIB_per_capita2;
 
     // Usando Operadores Matemáticos
-    int Densidade_populacional = populacao2 / area2; 
-    int Pib_per_capita = pib2 / populacao2;
+    int Densidade_populacional2 = populacao2 / area2; 
+    int Pib_per_capita2 = pib2 / populacao2;
     
     // Parte 4: Imprimindo os valores da Carta Dois
 
