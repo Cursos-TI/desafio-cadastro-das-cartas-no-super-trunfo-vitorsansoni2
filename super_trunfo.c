@@ -28,15 +28,15 @@
     
     // Parte 2: imprimindo os valores na tela.
     
-    printf("Estado: %s\n", estado);
+    printf("Estado: %s \n", estado);
     printf("Codigo da Carta: %s\n", codigo);
-    printf("Nome da Cidade: %s\n", nome);
-    printf("Populacao: %i\n", populacao);
-    printf("area em km²: %f\n", area);
-    printf("PIB: %.2f\n", pib);
-    printf("Numero de Pontos Turisticos: %i\n", pontosturisticos);
-    printf("Densidade Populacional %.2f", populacao / area);
-    printf("PIB per capita: %.2f", pib / populacao);
+    printf("Nome da Cidade: %s \n", nome);
+    printf("Populacao: %i \n", populacao);
+    printf("area em km²: %f \n", area);
+    printf("PIB: %.f \n", pib);
+    printf("Numero de Pontos Turisticos: %i \n", pontosturisticos);
+    printf("Densidade Populacional %.3f \n", populacao / area);
+    printf("PIB per capita: %.3f \n", pib / populacao);
 
 
     printf ("\n");
@@ -63,9 +63,9 @@
     printf("Populacao: %i\n", populacao2);
     printf("area em km²: %f\n", area2);
     printf("PIB: %.2f\n", pib);
-    printf("Numero de Pontos Turisticos: %i\n", pontosturisticos2);
-    printf("Densidade Populacional %.2f", populacao2 / area2);
-    printf("PIB per capita: %.2f", pib2 / populacao2);
+    printf("Numero de Pontos Turisticos: %i \n", pontosturisticos2);
+    printf("Densidade Populacional %.3f \n", populacao2 / area2);
+    printf("PIB per capita: %.3f \n", pib2 / populacao2);
 
     // Separando para deixar organizado.
     
